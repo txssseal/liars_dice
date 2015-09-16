@@ -6,7 +6,7 @@ clone the repo
 
 launch a pry or irb session
 
-`require './lib/game.rb'`
+`load './lib/game.rb'`
 
 ````
 
