@@ -2,5 +2,4 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 gem 'faker'
-gem 'dice'
-
+gem 'rdice', '~> 1.0.1'
