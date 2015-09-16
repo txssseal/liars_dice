@@ -32,7 +32,7 @@ describe Game do
     end
   end
 
-  describe "challenge" do
+  describe "challenge()" do
     it "will determine if a claim is true or false" do
       expect(g.challenge(dice: 19, value: 2)).to be false
     end
