@@ -1,6 +1,5 @@
 require 'faker'
 require 'dice'
-require 'pry'
 
 class Game
   attr_reader :players, :player, :total_dice_in_game, :board, :dice_bag
