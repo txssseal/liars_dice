@@ -28,7 +28,7 @@ class Game
     update_dice_bag
   end
   
-  #I believe my calculations are correct
+  #I believe my calculations are correct 
   def claim(args)
     "#{calc(@total_dice_in_game, args[:dice]) + calc(@total_dice_in_game, @total_dice_in_game)}%"
   end
