@@ -13,7 +13,7 @@ class Game
     @dice_bag =  @players.map { |player| player[:hand] }.flatten.sort
   end 
   
-  #move() does alot.  It find the player by id, creates a hash of there move, and pushes it to the board.
+  #Find the player by id, creates a hash of there move, and pushes it to the board.
   #it then calculates how many dice the player has left and updates it, and rerolls the remaining dice
   #finally it updates the total_dice in play and dice_bag
   def move(args)
@@ -28,7 +28,7 @@ class Game
     update_dice_bag
   end
   
-  #this is my problem child.  I believe my claculations are correct though
+  #I believe my calculations are correct
   def claim(args)
     "#{calc(@total_dice_in_game, args[:dice]) + calc(@total_dice_in_game, @total_dice_in_game)}%"
   end
