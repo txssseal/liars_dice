@@ -1,8 +1,11 @@
 ## liars_dice
 
 clone the repo
-bundle
-run pry
+
+`bundle`
+
+launch a pry or irb session
+
 `require './lib/game.rb'`
 
 ````
